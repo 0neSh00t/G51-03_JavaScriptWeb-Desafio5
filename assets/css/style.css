@@ -1,0 +1,76 @@
+body {
+  background: url("../img/texturaladrillos.jpeg") no-repeat;
+  background-size: cover;
+  font-family: "Kalnia", serif;
+  color: white;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 40px;
+  text-shadow: 10px 4px 14px white;
+}
+
+header input {
+  width: 16%;
+  height: 20px;
+  margin-right: 8px;
+  border: none;
+  box-shadow: 0px 4px 15px aqua;
+}
+
+header button {
+  border-radius: 5%;
+  border: none;
+  height: 25px;
+  width: 80px;
+  box-shadow: 3px 5px 15px aqua;
+}
+
+.menuTask {
+  display: grid;
+  grid-template-columns: 13% 10% 13%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.menuTask span,
+h3 {
+  font-size: 25px;
+  text-shadow: 10px 4px 14px greenyellow;
+}
+
+.taskList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.taskList article {
+  text-align: center;
+  padding: 20px;
+  border-radius: 3%;
+  box-shadow: -10px 10px 15px 12px black;
+  background: rgb(0, 179, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 179, 255, 1) 0%,
+    rgba(230, 10, 105, 1) 100%
+  );
+}
+
+.taskList input {
+  margin: 15px;
+}
+
+.taskList span {
+  margin: 2em;
+}
+
+.boxTask {
+  display: grid;
+  grid-template-columns: 10% auto 30%;
+}

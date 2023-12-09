@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia&display=swap"
+      rel="stylesheet"
+    />
+    <title>Desafío 5 - ToDo List</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>ToDo List</h1>
+      <input type="text" id="newTask" placeholder="Ingresar nueva tarea" />
+      <button id="btnAdd">Agregar</button>
+    </header>
+
+    <main>
+      <section class="menuTask">
+        <h3>
+          Total Tareas:
+          <span id="totalTask">0</span>
+        </h3>
+        <h3>
+          Realizadas:
+          <span id="taskDone">0</span>
+        </h3>
+        <h3>
+          Pendientes:
+          <span id="taskUndone">0</span>
+        </h3>
+      </section>
+
+      <section class="taskList">
+        <article id="containerTask"></article>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f5bdbb41e0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
